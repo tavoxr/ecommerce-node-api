@@ -1,10 +1,11 @@
-require('dotenv').config()
+const config =  require('./config/config')
 const express = require('express')
 const morgan = require('morgan')
+const configuracion = require('./config/config')
 const app = express()
 
 //settings
-app.set('port', process.env.PORT)
+app.set('port', config.PORT )
 
 
 //middlewares
