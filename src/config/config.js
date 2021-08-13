@@ -4,7 +4,7 @@ dotenv.config()
 
 const config = {
     PORT: process.env.PORT,
-    MONGODB_URI : process.env.MONGODB_URI || 'mongodb://localhost:27017/test'
+    MONGODB_URI : process.env.MONGODB_URI
 }
 
 
